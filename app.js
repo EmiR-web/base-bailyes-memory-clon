@@ -48,7 +48,7 @@ const flowDiscord = addKeyword(['discord']).addAnswer(
     [flowSecundario]
 )
 
-const flowPrincipal = addKeyword('.*')
+const flowPrincipal = addKeyword('asdsdkjdlsa')
     .addAnswer(
         [
             '👋 Hola, bienvenido a *Surair Climatización* 😊', 
