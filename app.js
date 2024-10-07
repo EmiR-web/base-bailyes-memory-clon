@@ -48,20 +48,20 @@ const flowDiscord = addKeyword(['discord']).addAnswer(
     [flowSecundario]
 )
 
-const flowPrincipal = addKeyword(['hola', 'ole', 'alo'])
-    .addAnswer('🙌 Hola bienvenido a este *Chatbot*')
+const flowPrincipal = addKeyword('.*')
     .addAnswer(
         [
-            'te comparto los siguientes links de interes sobre el proyecto',
-            '👉 *doc* para ver la documentación',
-            '👉 *gracias*  para ver la lista de videos',
-            '👉 *discord* unirte al discord',
-        ],
-        null,
-        null,
-        [flowDocs, flowGracias, flowTuto, flowDiscord]
+            '👋 Hola, bienvenido a *Surair Climatización* 😊', 
+            '📍 Nos encontramos en *Pedro Pico 276*, en Bahía Blanca'
+    ],
     )
-
+    .addAnswer( '🙋‍♀️ Mi Nombre es Milva, soy asesora comercial de la empresa')
+    .addAnswer('Te comparto las opciones de pago que tenemos disponibles actualmente',
+        {
+            media: 'https://iili.io/dpETyts.jpg'
+        }
+    )
+    .addAnswer('¿Estás buscando algún equipo en particular?')
 const main = async () => {
     const adapterDB = new MockAdapter()
     const adapterFlow = createFlow([flowPrincipal])
