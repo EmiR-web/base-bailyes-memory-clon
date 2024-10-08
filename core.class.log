@@ -1,0 +1,132 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '14155238886@s.whatsapp.net',
+    fromMe: false,
+    id: '112CB25DB3C335CDEE',
+    participant: undefined
+  },
+  messageTimestamp: 1728414470,
+  pushName: '14155238886',
+  broadcast: false,
+  messageStubType: 2,
+  messageStubParameters: [ 'Message absent from node' ],
+  body: undefined,
+  from: '14155238886'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '14155238886@s.whatsapp.net',
+    fromMe: false,
+    id: '112CB25DB3C335CDEE',
+    participant: undefined
+  },
+  messageTimestamp: 1728414471,
+  pushName: '14155238886',
+  broadcast: false,
+  message: Message {
+    conversation: '*quiero más información* is your verification code. For your security, do not share this code.',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  verifiedBizName: 'Twilio',
+  body: '*quiero más información* is your verification code. For your security, do not share this code.',
+  from: '14155238886'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '14155238886@s.whatsapp.net',
+    fromMe: false,
+    id: '112CB25DB3C335CDEE',
+    participant: undefined
+  },
+  messageTimestamp: 1728414471,
+  pushName: '14155238886',
+  broadcast: false,
+  verifiedBizName: 'Twilio',
+  message: Message {
+    conversation: '*quiero más información* is your verification code. For your security, do not share this code.',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '*quiero más información* is your verification code. For your security, do not share this code.',
+  from: '14155238886'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_8d098fdd-3475-4610-8fba-0257ff3590f7',
+  keyword: 'key_15c0c9c3-a93e-4477-8cea-583935b48f7d',
+  answer: '👋 Hola, bienvenido a *Surair Climatización* 😊\n' +
+    '📍 Nos encontramos en *Pedro Pico 276*, Bahía Blanca',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '6a0f95340bb04f65a817036479a422d8'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_8d098fdd-3475-4610-8fba-0257ff3590f7',
+  keyword: 'key_15c0c9c3-a93e-4477-8cea-583935b48f7d',
+  answer: '👋 Hola, bienvenido a *Surair Climatización* 😊\n' +
+    '📍 Nos encontramos en *Pedro Pico 276*, Bahía Blanca',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '6a0f95340bb04f65a817036479a422d8'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_9baf00bf-6915-455c-96ca-717f948f934d',
+  keyword: 'ans_8d098fdd-3475-4610-8fba-0257ff3590f7',
+  answer: '🙋‍♀️ Mi Nombre es Milva, soy asesora comercial de la empresa',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '0f4da6e986af545f65f81402141c9a67'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_9baf00bf-6915-455c-96ca-717f948f934d',
+  keyword: 'ans_8d098fdd-3475-4610-8fba-0257ff3590f7',
+  answer: '🙋‍♀️ Mi Nombre es Milva, soy asesora comercial de la empresa',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '0f4da6e986af545f65f81402141c9a67'
+}
+[ERROR ID (ans_489cc65c-4692-4752-b363-2ec4a1a3c3c2)]:  null
