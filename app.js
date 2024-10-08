@@ -52,7 +52,7 @@ const flowPrincipal = addKeyword('quiero más información')
     .addAnswer(
         [
             '👋 Hola, bienvenido a *Surair Climatización* 😊', 
-            '📍 Nos encontramos en *Pedro Pico 276*, Bahía Blanca'
+            '📍 Nos encontramos en *Pedro Pico 276*, Bahía Blanca',
     ],
     )
     .addAnswer( '🙋‍♀️ Mi Nombre es Milva, soy asesora comercial de la empresa')
