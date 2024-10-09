@@ -62,18 +62,24 @@ const flowPrincipal = addKeyword('quiero más información')
         }
     )
     .addAnswer('¿Estás buscando algún equipo en particular?')
-const main = async () => {
-    const adapterDB = new MockAdapter()
-    const adapterFlow = createFlow([flowPrincipal])
-    const adapterProvider = createProvider(BaileysProvider)
-
-    createBot({
-        flow: adapterFlow,
-        provider: adapterProvider,
-        database: adapterDB,
-    })
-
-    QRPortalWeb()
-}
-
-main()
+    
+    const main = async () => {
+        try {
+            const adapterDB = new MockAdapter()
+            const adapterFlow = createFlow([flowPrincipal])
+            const adapterProvider = createProvider(BaileysProvider)
+    
+            await createBot({
+                flow: adapterFlow,
+                provider: adapterProvider,
+                database: adapterDB,
+            })
+    
+            QRPortalWeb()
+    
+        } catch (err) {
+            console.error('Error en el bot:', err)
+        }
+    }
+    
+    main()

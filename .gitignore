@@ -1,2 +1,5 @@
 node_modules
-bot_sessions/baileys_store.json
+*.qr.png
+*.log
+sessions
+*_sessions
