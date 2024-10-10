@@ -59,7 +59,7 @@ const flowPrincipal = addKeyword('quiero más información')
     .addAnswer('Te comparto las opciones de pago que tenemos disponibles actualmente')
     .addAnswer('A distancia 💸',
         {
-            media: 'https://iili.io/dyrrs7j.jpg'
+            media: 'https://iili.io/29qoSsI.jpg'
         }
     )
     .addAnswer('Pago presencial 💳',
