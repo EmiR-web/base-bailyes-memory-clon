@@ -56,9 +56,15 @@ const flowPrincipal = addKeyword('quiero más información')
     ],
     )
     .addAnswer( '🙋‍♀️ Mi Nombre es Milva, soy asesora comercial de la empresa')
-    .addAnswer('Te comparto las opciones de pago que tenemos disponibles actualmente',
+    .addAnswer('Te comparto las opciones de pago que tenemos disponibles actualmente')
+    .addAnswer('A distancia 💸',
         {
-            media: 'https://iili.io/dpETyts.jpg'
+            media: 'https://iili.io/dyrrs7j.jpg'
+        }
+    )
+    .addAnswer('Pago presencial 💳',
+        {
+            media: 'https://iili.io/dyr6EPt.jpg'
         }
     )
     .addAnswer('¿Estás buscando algún equipo en particular?')
