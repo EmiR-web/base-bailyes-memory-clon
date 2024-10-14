@@ -2,3 +2,5 @@ node_modules
 *.log
 sessions
 *_sessions
+app-arevisar.js
+app-orig.js
